@@ -1,0 +1,7 @@
+Flask==2.0.1
+PyQt6==6.1.0
+selenium==3.141.0
+openai==0.6.0
+gunicorn==20.1.0
+requests==2.25.1
+SQLAlchemy==1.4.20
