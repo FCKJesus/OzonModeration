@@ -2,6 +2,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
+import os
+import json
 
 
 class OzonBrowser():
@@ -27,7 +29,7 @@ class OzonBrowser():
 
         # Настройки производительности
         chrome_options.add_argument('--disable-backgrounding-occluded-windows')  # Отключаем рендеринг фоновых окон
-        chrome_options.add_argument('--disable-preconnect')  # Отключаем предзагрузку страниц
+        #chrome_options.add_argument('--disable-preconnect')  # Отключаем предзагрузку страниц
         #chrome_options.add_argument('--blink-settings=imagesEnabled=false')  # Отключаем загрузку изображений через Blink settings
         chrome_options.add_argument('--disable-background-networking')  # Отключаем фоновую сетевую активность
         chrome_options.add_argument('--disable-hang-monitor')  # Отключаем монитор зависаний
@@ -76,7 +78,6 @@ class OzonBrowser():
         # Переход на заданный URL
         self.driver.get(self.url)
 
-        
 
     def get_title(self):
         if self.driver:
@@ -89,6 +90,15 @@ class OzonBrowser():
         if self.driver:
             self.close_browser()
             self.open_browser()
+
+
+    def highlight_words(self, words):
+        script_path = os.path.join(os.path.dirname(__file__), 'extensions', 'highlight.js')
+        with open(script_path, "r") as file:
+            js_code = file.read()
+        
+        words_to_highlight_json = json.dumps(words)
+        self.driver.execute_script(js_code, words_to_highlight_json)  # Загружаем JavaScript код
 
 
     def close_browser(self):
