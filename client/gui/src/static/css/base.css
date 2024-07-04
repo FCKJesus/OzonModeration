@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: "Tomorrow";
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Tomorrow";
+    font-weight: 500;
+    height: 100%;
+    color: #afabaa;
+  }
+ 
+  .title-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #171717;
+    height: 30px;
+    -webkit-app-region: drag; /* Добавляем возможность перетаскивания */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .title-bar .title-text {
+    color: #afabaa;
+    margin: auto;
+    margin-left: 20px;
+    font-size: 13px;
+    align-items: center;
+  }
+  .title-bar .buttons {
+    margin-right: 20px;
+    align-items: center;
+  }
+  .title-bar button {
+    background: none;
+    border-radius: 50%;
+    border: none;
+    color: #afabaa;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-app-region: no-drag; /* Исключаем кнопки из области перетаскивания */
+  }
+  
+  .title-bar button:hover {
+    background-color: #555;
+  }
+  
+  #content {
+    background-color: #212121;
+    flex: 1;
+
+
+  }
