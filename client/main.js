@@ -1,3 +1,7 @@
+
+const { startServer, stopServer } = require('./src/server');
+
+
 const { app, BrowserWindow, ipcMain } = require('electron');
 const path = require('path');
 
@@ -43,8 +47,11 @@ function createWindow() {
     }, 5000); // Задержка в 5 секунд
   });
 }
+  app.whenReady().then(() => {
+    startServer(); // Запуск Flask сервера
+  });
 
-ipcMain.on('load-page', (event, page) => {
+  ipcMain.on('load-page', (event, page) => {
     console.log(`Loading page: ${page}`);
     mainWindow.webContents.send('navigate-to', page);
   });
@@ -56,6 +63,7 @@ ipcMain.on('load-page', (event, page) => {
   
   ipcMain.on('close', () => {
     console.log('Closing window');
+    stopServer(); // Остановка Flask сервера при выходе
     mainWindow.close();
   });
   
