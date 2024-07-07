@@ -3,70 +3,69 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 import os
-import json
 import uuid
+import pickle
+import logging
+import datetime
 
+# Настройка логирования
+log_dir = "logs"
+os.makedirs(log_dir, exist_ok=True)
+log_filename = os.path.join(log_dir, datetime.datetime.now().strftime("%Y-%m-%d") + ".log")
 
-class OzonBrowser():
-    def __init__(self):
+logging.basicConfig(
+    filename=log_filename,
+    level=logging.INFO,
+    format='%(asctime)s %(levelname)s %(message)s',
+    filemode='a'
+)
+logger = logging.getLogger(__name__)
+
+class OzonBrowser:
+    def __init__(self, url="https://bot.sannysoft.com", is_headless=False):
         self.driver = None
-        self.url = "https://bot.sannysoft.com"  # URL для проверки
-        self.is_headless =  False
-
+        self.url = url
+        self.is_headless = is_headless
 
     def open_browser(self):
         chrome_options = Options()
-
-        # Общие настройки
         if self.is_headless:
-            chrome_options.add_argument("--headless")  # Запускаем браузер в headless режиме
-        chrome_options.add_argument('--no-sandbox')  # Отключаем песочницу (для Linux)
-        chrome_options.add_argument('--disable-gpu')  # Отключаем GPU
-        chrome_options.add_argument('--disable-extensions')  # Отключаем расширения
-        chrome_options.add_argument('--disable-dev-shm-usage')  # Отключаем использование /dev/shm (для Linux)
-        chrome_options.add_argument("--disable-blink-features")  # Отключаем Blink features
-        chrome_options.add_argument('--disable-application-cache')  # Отключаем кэш приложений
-        chrome_options.add_argument("--disable-blink-features=AutomationControlled")  # Отключение автоматизации
-
-        # Настройки производительности
-        chrome_options.add_argument('--disable-backgrounding-occluded-windows')  # Отключаем рендеринг фоновых окон
-        #chrome_options.add_argument('--disable-preconnect')  # Отключаем предзагрузку страниц
-        #chrome_options.add_argument('--blink-settings=imagesEnabled=false')  # Отключаем загрузку изображений через Blink settings
-        chrome_options.add_argument('--disable-background-networking')  # Отключаем фоновую сетевую активность
-        chrome_options.add_argument('--disable-hang-monitor')  # Отключаем монитор зависаний
-        chrome_options.add_argument('--disable-ipc-flooding-protection')  # Отключаем защиту от наводнения IPC
-        chrome_options.add_argument('--disable-renderer-backgrounding')  # Отключаем фоновый рендеринг
-        chrome_options.add_argument('--disable-background-timer-throttling')  # Отключаем ограничение таймеров в фоне
-        chrome_options.add_argument('--disable-sync')  # Отключаем синхронизацию
-        chrome_options.add_argument('--disable-features=NetworkService,NetworkServiceInProcess')  # Отключаем сетевой сервис
-        chrome_options.add_argument('--log-level=3')  # Устанавливаем минимальный уровень журнала (ERROR)
-        
-        # Установка экспериментальных опций для маскировки
+            chrome_options.add_argument("--headless")
+        chrome_options.add_argument('--no-sandbox')
+        chrome_options.add_argument('--disable-gpu')
+        chrome_options.add_argument('--disable-extensions')
+        chrome_options.add_argument('--disable-dev-shm-usage')
+        chrome_options.add_argument("--disable-blink-features")
+        chrome_options.add_argument('--disable-application-cache')
+        chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+        chrome_options.add_argument('--disable-backgrounding-occluded-windows')
+        chrome_options.add_argument('--disable-background-networking')
+        chrome_options.add_argument('--disable-hang-monitor')
+        chrome_options.add_argument('--disable-ipc-flooding-protection')
+        chrome_options.add_argument('--disable-renderer-backgrounding')
+        chrome_options.add_argument('--disable-background-timer-throttling')
+        chrome_options.add_argument('--disable-sync')
+        chrome_options.add_argument('--disable-features=NetworkService,NetworkServiceInProcess')
+        chrome_options.add_argument('--log-level=3')
         chrome_options.add_experimental_option('useAutomationExtension', False)
         chrome_options.add_experimental_option('excludeSwitches', ['enable-automation', 'enable-logging'])
         chrome_options.add_experimental_option('prefs', {
-                'disk-cache-size': 0,  # Устанавливаем размер дискового кэша в 0
-            })
-
-        # Установка пользовательского агента
+            'disk-cache-size': 0,
+        })
         chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36")
-        
-        # Установка стратегии загрузки страницы
-        chrome_options.page_load_strategy = 'eager'  # Стратегия загрузки страницы
+        chrome_options.page_load_strategy = 'eager'
 
         # Создаем драйвер Chrome
         self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
-
-        # Установка значений для WebGL
+        
+        # Устанавливаем значения для WebGL
         self.driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
             "source": """
                 Object.defineProperty(WebGLRenderingContext.prototype, 'getParameter', {
                     value: function(parameter) {
-                        // UNMASKED_VENDOR_WEBGL
                         if (parameter === 37445) {
                             return 'Intel Inc.';
                         }
-                        // UNMASKED_RENDERER_WEBGL
                         if (parameter === 37446) {
                             return 'Intel Iris OpenGL Engine';
                         }
@@ -76,70 +75,113 @@ class OzonBrowser():
             """
         })
 
-        # Переход на заданный URL
+        # Переходим на заданный URL
         self.driver.get(self.url)
-
 
     def get_title(self):
         if self.driver:
             return self.driver.title
-        return "No Browser"
-    
+        return "Нет браузера"
 
     def toggle_headless(self):
         self.is_headless = not self.is_headless
         if self.driver:
             self.close_browser()
             self.open_browser()
+        return self.is_headless
 
+    def save_cookies(self, file_path):
+        # Сохраняем куки в файл
+        if self.driver:
+            cookies = self.driver.get_cookies()
+            with open(file_path, 'wb') as file:
+                pickle.dump(cookies, file)
+            return True
+        return False
 
-    def highlight_words(self, words):
-        script_path = os.path.join(os.path.dirname(__file__), 'extensions', 'highlight.js')
-        with open(script_path, "r") as file:
-            js_code = file.read()
-        
-        words_to_highlight_json = json.dumps(words)
-        self.driver.execute_script(js_code, words_to_highlight_json)  # Загружаем JavaScript код
-
+    def load_cookies(self, file_path):
+        # Загружаем куки из файла
+        if self.driver:
+            with open(file_path, 'rb') as file:
+                cookies = pickle.load(file)
+            for cookie in cookies:
+                self.driver.add_cookie(cookie)
+            return True
+        return False
 
     def close_browser(self):
         if self.driver:
             self.driver.quit()
             self.driver = None
 
-
-class BrowserManager():
+class BrowserManager:
     def __init__(self):
         self.browsers = {}
 
     def open_browser(self):
+        # Открываем новый браузер и сохраняем его ID
         browser_id = str(uuid.uuid4())
         browser = OzonBrowser()
         browser.open_browser()
         self.browsers[browser_id] = browser
+        logger.info(f"Браузер открыт с ID: {browser_id}. Все браузеры: {self.browsers.keys()}")
         return browser_id
 
     def close_browser(self, browser_id):
+        # Закрываем браузер по ID
         if browser_id in self.browsers:
             self.browsers[browser_id].close_browser()
             del self.browsers[browser_id]
+            logger.info(f"Браузер закрыт с ID: {browser_id}")
             return True
+        logger.error(f"Браузер не найден с ID: {browser_id}")
         return False
 
     def get_title(self, browser_id):
+        # Получаем заголовок страницы по ID браузера
         if browser_id in self.browsers:
-            return self.browsers[browser_id].get_title()
+            title = self.browsers[browser_id].get_title()
+            logger.info(f"Получен заголовок для браузера с ID: {browser_id}: {title}")
+            return title
+        logger.error(f"Браузер не найден с ID: {browser_id}")
         return None
-    
-    def highlight_words(self, browser_id, words):
-        if browser_id in self.browsers:
-            return self.browsers[browser_id].highlight_words(words)
-        return False
 
     def toggle_headless(self, browser_id):
+        # Переключаем режим headless в браузере по ID
         if browser_id in self.browsers:
-            return self.browsers[browser_id].toggle_headless()
+            is_headless = self.browsers[browser_id].toggle_headless()
+            logger.info(f"Режим headless переключен для браузера с ID: {browser_id} на {is_headless}")
+            return is_headless
+        logger.error(f"Браузер не найден с ID: {browser_id}")
+        return False
+
+    def save_cookies(self, browser_id):
+        # Сохраняем куки в файл по ID браузера
+        if browser_id in self.browsers:
+            file_path = f"{browser_id}.pkl"
+            success = self.browsers[browser_id].save_cookies(file_path)
+            if success:
+                logger.info(f"Куки сохранены для браузера с ID: {browser_id} в файл {file_path}")
+            else:
+                logger.error(f"Не удалось сохранить куки для браузера с ID: {browser_id}")
+            return success
+        logger.error(f"Браузер не найден с ID: {browser_id}")
+        return False
+
+    def load_cookies(self, browser_id):
+        # Загружаем куки из файла по ID браузера
+        if browser_id in self.browsers:
+            file_path = f"{browser_id}.pkl"
+            success = self.browsers[browser_id].load_cookies(file_path)
+            if success:
+                logger.info(f"Куки загружены для браузера с ID: {browser_id} из файла {file_path}")
+            else:
+                logger.error(f"Не удалось загрузить куки для браузера с ID: {browser_id}")
+            return success
+        logger.error(f"Браузер не найден с ID: {browser_id}")
         return False
 
     def get_all_browsers(self):
+        print(self.browsers)
+        # Возвращаем список всех открытых браузеров
         return list(self.browsers.keys())

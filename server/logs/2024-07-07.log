@@ -1,0 +1,2245 @@
+2024-07-07 17:38:03,208 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-07 17:38:03,208 INFO [33mPress CTRL+C to quit[0m
+2024-07-07 17:38:03,209 INFO  * Restarting with stat
+2024-07-07 17:38:03,612 WARNING  * Debugger is active!
+2024-07-07 17:38:03,618 INFO  * Debugger PIN: 582-660-401
+2024-07-07 17:38:09,445 INFO ====== WebDriver manager ======
+2024-07-07 17:38:09,590 INFO Get LATEST chromedriver version for google-chrome
+2024-07-07 17:38:09,828 INFO Get LATEST chromedriver version for google-chrome
+2024-07-07 17:38:10,005 INFO Driver [/home/fckjesus/.wdm/drivers/chromedriver/linux64/126.0.6478.126/chromedriver-linux64/chromedriver] found in cache
+2024-07-07 17:38:11,540 INFO Браузер открыт с ID: 4ccc06f5-1049-496f-9dd9-a2c9e6cb43ab. Все браузеры: dict_keys(['4ccc06f5-1049-496f-9dd9-a2c9e6cb43ab'])
+2024-07-07 17:38:11,541 INFO Браузер открыт с ID: 4ccc06f5-1049-496f-9dd9-a2c9e6cb43ab
+2024-07-07 17:38:11,542 INFO 127.0.0.1 - - [07/Jul/2024 17:38:11] "POST /browser/open HTTP/1.1" 200 -
+2024-07-07 17:38:26,669 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:26,669 INFO Воркер запущен для браузера с ID: 4ccc06f5-1049-496f-9dd9-a2c9e6cb43ab
+2024-07-07 17:38:26,669 INFO Воркер запущен для браузера с ID: 4ccc06f5-1049-496f-9dd9-a2c9e6cb43ab
+2024-07-07 17:38:26,670 INFO 127.0.0.1 - - [07/Jul/2024 17:38:26] "POST /browser/worker/start/4ccc06f5-1049-496f-9dd9-a2c9e6cb43ab HTTP/1.1" 200 -
+2024-07-07 17:38:27,669 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:28,670 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:29,670 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:30,670 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:31,671 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:32,671 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:33,672 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:34,672 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:35,672 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:36,673 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:37,673 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:38,673 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:39,674 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:40,674 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:41,675 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:42,675 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:43,676 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:44,676 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:45,677 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:46,678 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:47,678 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:48,679 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:49,679 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:50,679 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:51,680 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:52,680 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:53,681 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:54,681 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:55,681 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:56,682 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:57,682 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:58,682 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:38:59,683 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:39:00,683 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:39:01,684 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:39:02,685 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:39:03,685 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:39:04,686 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:39:05,686 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:39:06,687 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:39:07,687 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:39:08,688 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:39:09,688 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:39:10,688 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:39:11,689 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:39:12,689 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:39:12,778 INFO  * Detected change in '/home/fckjesus/Ozon/OzonModeration/server/app/src/pom/worker.py', reloading
+2024-07-07 17:39:12,887 INFO  * Restarting with stat
+2024-07-07 17:39:13,312 WARNING  * Debugger is active!
+2024-07-07 17:39:13,317 INFO  * Debugger PIN: 582-660-401
+2024-07-07 17:39:31,186 INFO ====== WebDriver manager ======
+2024-07-07 17:39:31,326 INFO Get LATEST chromedriver version for google-chrome
+2024-07-07 17:39:31,457 INFO Get LATEST chromedriver version for google-chrome
+2024-07-07 17:39:31,577 INFO Driver [/home/fckjesus/.wdm/drivers/chromedriver/linux64/126.0.6478.126/chromedriver-linux64/chromedriver] found in cache
+2024-07-07 17:39:32,909 INFO Браузер открыт с ID: 34730afa-d2f6-45bc-a894-9159aab97476. Все браузеры: dict_keys(['34730afa-d2f6-45bc-a894-9159aab97476'])
+2024-07-07 17:39:32,909 INFO Браузер открыт с ID: 34730afa-d2f6-45bc-a894-9159aab97476
+2024-07-07 17:39:32,910 INFO 127.0.0.1 - - [07/Jul/2024 17:39:32] "POST /browser/open HTTP/1.1" 200 -
+2024-07-07 17:39:53,633 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:39:53,633 INFO Воркер запущен для браузера с ID: 34730afa-d2f6-45bc-a894-9159aab97476
+2024-07-07 17:39:53,633 INFO Воркер запущен для браузера с ID: 34730afa-d2f6-45bc-a894-9159aab97476
+2024-07-07 17:39:53,634 INFO 127.0.0.1 - - [07/Jul/2024 17:39:53] "POST /browser/worker/start/34730afa-d2f6-45bc-a894-9159aab97476 HTTP/1.1" 200 -
+2024-07-07 17:39:54,633 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:39:55,634 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:39:56,634 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:39:57,635 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:39:58,635 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:39:59,635 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:00,636 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:01,636 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:02,637 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:03,637 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:04,638 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:05,639 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:06,639 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:07,639 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:08,640 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:09,640 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:10,641 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:11,641 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:12,642 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:13,642 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:14,642 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:15,643 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:16,643 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:17,644 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:18,644 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:19,645 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:20,645 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:21,645 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:22,646 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:23,646 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:24,647 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:25,647 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:26,647 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:27,648 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:28,648 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:29,648 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:30,649 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:31,649 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:32,650 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:33,650 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:34,650 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:35,651 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:36,652 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:37,653 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:38,653 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:39,653 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:40,654 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:41,654 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:42,654 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:43,655 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:44,655 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:45,656 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:46,656 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:47,657 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:48,657 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:49,657 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:50,658 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:51,658 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:52,658 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:53,659 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:54,659 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:55,660 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:56,660 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:57,661 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:58,661 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:40:59,662 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:00,662 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:01,662 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:02,663 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:03,663 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:04,663 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:05,664 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:06,664 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:07,665 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:08,665 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:09,666 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:10,666 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:11,667 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:12,667 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:13,667 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:14,668 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:15,669 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:16,669 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:17,669 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:18,670 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:19,670 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:20,671 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:21,671 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:22,671 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:23,672 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:24,672 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:25,673 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:26,673 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:27,674 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:28,674 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:29,674 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:30,675 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:31,675 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:32,676 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:33,676 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:34,676 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:35,677 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:36,677 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:37,678 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:38,678 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:39,679 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:40,679 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:41,679 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:42,680 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:43,680 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:44,681 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:45,681 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:46,682 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:47,682 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:48,682 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:49,684 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:50,684 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:51,685 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:52,685 ERROR Ошибка при подсветке ответа: 'WebDriver' object has no attribute 'find_element_by_class_name'
+2024-07-07 17:41:53,568 INFO  * Detected change in '/home/fckjesus/Ozon/OzonModeration/server/app/src/pom/worker.py', reloading
+2024-07-07 17:41:53,692 INFO  * Restarting with stat
+2024-07-07 17:41:54,144 WARNING  * Debugger is active!
+2024-07-07 17:41:54,149 INFO  * Debugger PIN: 582-660-401
+2024-07-07 17:42:22,465 INFO  * Detected change in '/home/fckjesus/Ozon/OzonModeration/server/app/src/pom/worker.py', reloading
+2024-07-07 17:42:22,557 INFO  * Restarting with stat
+2024-07-07 17:42:23,082 WARNING  * Debugger is active!
+2024-07-07 17:42:23,087 INFO  * Debugger PIN: 582-660-401
+2024-07-07 17:42:28,601 INFO ====== WebDriver manager ======
+2024-07-07 17:42:28,740 INFO Get LATEST chromedriver version for google-chrome
+2024-07-07 17:42:29,062 INFO Get LATEST chromedriver version for google-chrome
+2024-07-07 17:42:29,238 INFO Driver [/home/fckjesus/.wdm/drivers/chromedriver/linux64/126.0.6478.126/chromedriver-linux64/chromedriver] found in cache
+2024-07-07 17:42:31,220 INFO Браузер открыт с ID: 181c0d4e-32b3-441e-a31e-ec23d9405c90. Все браузеры: dict_keys(['181c0d4e-32b3-441e-a31e-ec23d9405c90'])
+2024-07-07 17:42:31,220 INFO Браузер открыт с ID: 181c0d4e-32b3-441e-a31e-ec23d9405c90
+2024-07-07 17:42:31,221 INFO 127.0.0.1 - - [07/Jul/2024 17:42:31] "POST /browser/open HTTP/1.1" 200 -
+2024-07-07 17:42:42,472 INFO Воркер запущен для браузера с ID: 181c0d4e-32b3-441e-a31e-ec23d9405c90
+2024-07-07 17:42:42,472 INFO Воркер запущен для браузера с ID: 181c0d4e-32b3-441e-a31e-ec23d9405c90
+2024-07-07 17:42:42,473 INFO 127.0.0.1 - - [07/Jul/2024 17:42:42] "POST /browser/worker/start/181c0d4e-32b3-441e-a31e-ec23d9405c90 HTTP/1.1" 200 -
+2024-07-07 17:42:42,504 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:42:43,536 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:42:44,560 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:42:45,590 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:42:46,621 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:42:47,653 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:42:48,686 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:42:49,718 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:42:50,751 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:42:51,782 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:42:52,807 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:42:53,832 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:42:54,861 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:42:55,891 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:42:56,922 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:42:57,952 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:42:58,985 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:00,019 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:01,049 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:02,081 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:03,106 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:04,137 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:05,168 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:06,200 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:07,236 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:08,267 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:09,302 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:10,335 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:11,367 ERROR Ошибка при подсветке ответа: Message: no such element: Unable to locate element: {"method":"css selector","selector":".result passed"}
+  (Session info: chrome=126.0.6478.126); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83da661 <unknown>
+#3 0x5b99e83da751 <unknown>
+#4 0x5b99e841ef64 <unknown>
+#5 0x5b99e83fd5ed <unknown>
+#6 0x5b99e841c303 <unknown>
+#7 0x5b99e83fd363 <unknown>
+#8 0x5b99e83cd247 <unknown>
+#9 0x5b99e83cdb9e <unknown>
+#10 0x5b99e867124b <unknown>
+#11 0x5b99e86752f1 <unknown>
+#12 0x5b99e865cafe <unknown>
+#13 0x5b99e8675e52 <unknown>
+#14 0x5b99e864179f <unknown>
+#15 0x5b99e869a638 <unknown>
+#16 0x5b99e869a810 <unknown>
+#17 0x5b99e86a9dac <unknown>
+#18 0x71d07989ca94 <unknown>
+#19 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:12,385 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:13,401 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:14,413 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:15,435 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:16,447 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:17,458 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:18,471 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:19,484 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:20,504 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:21,523 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:22,541 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:23,557 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:24,573 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:25,589 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:26,605 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:27,621 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:28,640 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:29,656 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:30,672 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:31,687 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:32,704 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:33,720 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:34,736 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:35,752 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:36,768 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:37,784 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:38,799 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:39,816 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:40,832 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:41,848 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:42,863 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:43,878 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:44,889 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:45,905 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:46,920 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:47,936 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:48,953 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:49,969 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:50,986 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:52,003 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:53,019 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:54,035 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:55,052 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:56,068 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:57,085 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:58,100 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:43:59,116 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:00,128 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:01,143 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:02,159 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:03,175 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:04,191 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:05,203 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:06,219 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:07,230 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:08,246 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:09,261 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:10,275 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
