@@ -4,6 +4,7 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 import os
 import json
+import uuid
 
 
 class OzonBrowser():
@@ -105,3 +106,40 @@ class OzonBrowser():
         if self.driver:
             self.driver.quit()
             self.driver = None
+
+
+class BrowserManager():
+    def __init__(self):
+        self.browsers = {}
+
+    def open_browser(self):
+        browser_id = str(uuid.uuid4())
+        browser = OzonBrowser()
+        browser.open_browser()
+        self.browsers[browser_id] = browser
+        return browser_id
+
+    def close_browser(self, browser_id):
+        if browser_id in self.browsers:
+            self.browsers[browser_id].close_browser()
+            del self.browsers[browser_id]
+            return True
+        return False
+
+    def get_title(self, browser_id):
+        if browser_id in self.browsers:
+            return self.browsers[browser_id].get_title()
+        return None
+    
+    def highlight_words(self, browser_id, words):
+        if browser_id in self.browsers:
+            return self.browsers[browser_id].highlight_words(words)
+        return False
+
+    def toggle_headless(self, browser_id):
+        if browser_id in self.browsers:
+            return self.browsers[browser_id].toggle_headless()
+        return False
+
+    def get_all_browsers(self):
+        return list(self.browsers.keys())
