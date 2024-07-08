@@ -1,25 +1,45 @@
 document.addEventListener('DOMContentLoaded', (event) => {
-  refreshBrowsers();
+  const refreshBrowsersButton = document.getElementById('refreshBrowsersButton');
+  const pingButton = document.getElementById('pingButton');
+  const openBrowserButton = document.getElementById('openBrowserButton');
+  const closeBrowserButton = document.getElementById('closeBrowserButton');
+  const getTitleButton = document.getElementById('getTitleButton');
+  const toggleHeadlessButton = document.getElementById('toggleHeadlessButton');
+  const getCookiesButton = document.getElementById('getCookiesButton');
+  const loadCookiesButton = document.getElementById('loadCookiesButton');
+  const startWorkerButton = document.getElementById('startWorkerButton');
+  const stopWorkerButton = document.getElementById('stopWorkerButton');
+  const logoutButton = document.getElementById('logoutButton');
 
-  document.getElementById('refreshBrowsersButton').onclick = refreshBrowsers;
-  document.getElementById('pingButton').onclick = pingServer;
-  document.getElementById('openBrowserButton').onclick = openBrowser;
-  document.getElementById('closeBrowserButton').onclick = closeBrowser;
-  document.getElementById('getTitleButton').onclick = getTitle;
-  document.getElementById('toggleHeadlessButton').onclick = toggleHeadless;
-  document.getElementById('getCookiesButton').onclick = getCookies;
-  document.getElementById('loadCookiesButton').onclick = loadCookies;
-  document.getElementById('startWorkerButton').onclick = startWorker;
-  document.getElementById('stopWorkerButton').onclick = stopWorker;
+  if (refreshBrowsersButton) refreshBrowsersButton.onclick = refreshBrowsers;
+  if (pingButton) pingButton.onclick = pingServer;
+  if (openBrowserButton) openBrowserButton.onclick = openBrowser;
+  if (closeBrowserButton) closeBrowserButton.onclick = closeBrowser;
+  if (getTitleButton) getTitleButton.onclick = getTitle;
+  if (toggleHeadlessButton) toggleHeadlessButton.onclick = toggleHeadless;
+  if (getCookiesButton) getCookiesButton.onclick = getCookies;
+  if (loadCookiesButton) loadCookiesButton.onclick = loadCookies;
+  if (startWorkerButton) startWorkerButton.onclick = startWorker;
+  if (stopWorkerButton) stopWorkerButton.onclick = stopWorker;
+  if (logoutButton) logoutButton.onclick = () => loadPage('login.html');
 
   window.api.receive('show-message', (message) => {
     showMessage(message);
   });
+
+  refreshBrowsers();  // Обновление списка браузеров при загрузке страницы
 });
 
 const showMessage = (message) => {
   const messagesContainer = document.getElementById('messages');
-  messagesContainer.innerText = message;
+  if (messagesContainer) {
+    messagesContainer.innerText = message;
+  }
+};
+
+const loadPage = (page) => {
+  window.api.setCurrentPage(page);
+  window.api.loadPage(page);
 };
 
 const getCookies = async () => {
@@ -57,7 +77,10 @@ const pingServer = () => {
       console.log(data.message);
       showMessage(data.message);
     })
-    .catch(error => console.error('Error:', error));
+    .catch(error => {
+      console.error('Error:', error);
+      showMessage('Ошибка при запросе ping');
+    });
 };
 
 const openBrowser = () => {
@@ -68,7 +91,10 @@ const openBrowser = () => {
       showMessage(`Браузер открыт ${data.browser_id}`);
       refreshBrowsers();
     })
-    .catch(error => console.error('Error:', error));
+    .catch(error => {
+      console.error('Error:', error);
+      showMessage('Ошибка при открытии браузера');
+    });
 };
 
 const closeBrowser = () => {
@@ -82,7 +108,10 @@ const closeBrowser = () => {
       showMessage(data.message);
       refreshBrowsers();
     })
-    .catch(error => console.error('Error:', error));
+    .catch(error => {
+      console.error('Error:', error);
+      showMessage('Ошибка при закрытии браузера');
+    });
 };
 
 const getTitle = () => {
@@ -95,7 +124,10 @@ const getTitle = () => {
       console.log(data.title);
       showMessage(`Title: ${data.title}`);
     })
-    .catch(error => console.error('Error:', error));
+    .catch(error => {
+      console.error('Error:', error);
+      showMessage('Ошибка при получении заголовка');
+    });
 };
 
 const toggleHeadless = () => {
@@ -108,7 +140,10 @@ const toggleHeadless = () => {
       console.log(data.message);
       showMessage(data.message);
     })
-    .catch(error => console.error('Error:', error));
+    .catch(error => {
+      console.error('Error:', error);
+      showMessage('Ошибка при переключении headless режима');
+    });
 };
 
 const startWorker = () => {
@@ -121,7 +156,10 @@ const startWorker = () => {
       console.log(data.message);
       showMessage(data.message);
     })
-    .catch(error => console.error('Error:', error));
+    .catch(error => {
+      console.error('Error:', error);
+      showMessage('Ошибка при запуске воркера');
+    });
 };
 
 const stopWorker = () => {
@@ -134,7 +172,10 @@ const stopWorker = () => {
       console.log(data.message);
       showMessage(data.message);
     })
-    .catch(error => console.error('Error:', error));
+    .catch(error => {
+      console.error('Error:', error);
+      showMessage('Ошибка при остановке воркера');
+    });
 };
 
 const refreshBrowsers = () => {
@@ -142,27 +183,32 @@ const refreshBrowsers = () => {
     .then(response => response.json())
     .then(data => {
       const browserList = document.getElementById('browserList');
-      browserList.innerHTML = ''; // Очистка списка перед обновлением
+      if (browserList) {
+        browserList.innerHTML = ''; // Очистка списка перед обновлением
 
-      data.browsers.forEach(browser => {
-        const browserItem = document.createElement('div');
-        const checkbox = document.createElement('input');
-        checkbox.type = 'checkbox';
-        checkbox.id = browser;
-        checkbox.name = 'browser';
-        checkbox.value = browser;
-        checkbox.onclick = handleCheckboxClick;
+        data.browsers.forEach(browser => {
+          const browserItem = document.createElement('div');
+          const checkbox = document.createElement('input');
+          checkbox.type = 'checkbox';
+          checkbox.id = browser;
+          checkbox.name = 'browser';
+          checkbox.value = browser;
+          checkbox.onclick = handleCheckboxClick;
 
-        const label = document.createElement('label');
-        label.htmlFor = browser;
-        label.innerText = `Browser ID: ${browser}`;
+          const label = document.createElement('label');
+          label.htmlFor = browser;
+          label.innerText = `Browser ID: ${browser}`;
 
-        browserItem.appendChild(checkbox);
-        browserItem.appendChild(label);
-        browserList.appendChild(browserItem);
-      });
+          browserItem.appendChild(checkbox);
+          browserItem.appendChild(label);
+          browserList.appendChild(browserItem);
+        });
+      }
     })
-    .catch(error => console.error('Error:', error));
+    .catch(error => {
+      console.error('Error:', error);
+      showMessage('Ошибка при обновлении списка браузеров');
+    });
 };
 
 const handleCheckboxClick = (event) => {
@@ -180,6 +226,7 @@ const getSelectedBrowserId = () => {
     return checkboxes[0].value;
   } else {
     console.error('No browser selected');
+    showMessage('Не выбран браузер');
     return null;
   }
 };

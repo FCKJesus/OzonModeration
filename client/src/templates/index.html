@@ -1,23 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Ozon Moderation</title>
-</head>
-<body>
-  <h1>Ozon Moderation</h1>
-  <button id="getCookiesButton" onclick="getCookies()">Get Cookies from Server</button>
-  <button id="loadCookiesButton" onclick="loadCookies()">Load Cookies to Server</button>
-  <div id="browserList"></div>
-  <button id="refreshBrowsersButton" onclick="refreshBrowsers()">Refresh Browsers</button>
-  <button id="pingButton" onclick="pingServer()">Ping Server</button>
-  <button id="openBrowserButton" onclick="openBrowser()">Open Browser</button>
-  <button id="closeBrowserButton" onclick="closeBrowser()">Close Browser</button>
-  <button id="getTitleButton" onclick="getTitle()">Get Browser Title</button>
-  <button id="toggleHeadlessButton" onclick="toggleHeadless()">Toggle Headless</button>
-  <button id="startWorkerButton" onclick="startWorker()">Start Worker</button>
-  <button id="stopWorkerButton" onclick="stopWorker()">Stop Worker</button>
-  <div id="messages"></div> <!-- Контейнер для сообщений от сервера -->
-  <script src="app.js"></script>
-</body>
-</html>
+
+  <link rel="stylesheet" href="../static/css/index.css">
+
+  <div class="container">
+    <div id="messages"></div> <!-- Контейнер для сообщений от сервера -->
+
+    <div class="main_content">
+      <div class="side_bar">
+        <button id="getCookiesButton" onclick="getCookies()">Get Cookies</button>
+        <button id="loadCookiesButton" onclick="loadCookies()">Load Cookies</button>
+        <button id="refreshBrowsersButton" onclick="refreshBrowsers()">Get Browsers</button>
+        <button id="openBrowserButton" onclick="openBrowser()">Open Browser</button>
+        <button id="closeBrowserButton" onclick="closeBrowser()">Close Browser</button>
+        <button id="getTitleButton" onclick="getTitle()">Get Browser Title</button>
+        <button id="toggleHeadlessButton" onclick="toggleHeadless()">Toggle Headless</button>
+        <button id="startWorkerButton" onclick="startWorker()">Start Worker</button>
+        <button id="stopWorkerButton" onclick="stopWorker()">Stop Worker</button>
+        <button id="stopWorkerButton" onclick="LoadB()">Stop Worker</button>
+        <button type="button" onclick="loadPage('login.html')">Logout</button>
+      </div>
+      <div class="info_bar">
+        <div id="browserList"></div>
+      </div>
+    </div>
+    
+  </div>
+

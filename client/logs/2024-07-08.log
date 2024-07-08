@@ -1,0 +1,369 @@
+2024-07-08 00:02:31,882 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:02:31,882 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:02:31,882 INFO  * Restarting with stat
+2024-07-08 00:02:32,168 WARNING  * Debugger is active!
+2024-07-08 00:02:32,172 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:03:12,258 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:03:12,258 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:03:12,259 INFO  * Restarting with stat
+2024-07-08 00:03:12,549 WARNING  * Debugger is active!
+2024-07-08 00:03:12,552 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:09:38,818 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:09:38,819 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:09:38,819 INFO  * Restarting with stat
+2024-07-08 00:09:39,154 WARNING  * Debugger is active!
+2024-07-08 00:09:39,158 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:10:12,695 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:10:12,695 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:10:12,696 INFO  * Restarting with stat
+2024-07-08 00:10:12,973 WARNING  * Debugger is active!
+2024-07-08 00:10:12,977 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:10:29,981 INFO Получен запрос на /ping
+2024-07-08 00:10:29,981 INFO 127.0.0.1 - - [08/Jul/2024 00:10:29] "GET /browser/ping HTTP/1.1" 200 -
+2024-07-08 00:10:58,745 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:10:58,746 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:10:58,746 INFO  * Restarting with stat
+2024-07-08 00:10:59,028 WARNING  * Debugger is active!
+2024-07-08 00:10:59,033 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:13:03,399 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:13:03,400 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:13:03,400 INFO  * Restarting with stat
+2024-07-08 00:13:03,682 WARNING  * Debugger is active!
+2024-07-08 00:13:03,685 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:13:10,815 INFO Получен запрос на /ping
+2024-07-08 00:13:10,816 INFO 127.0.0.1 - - [08/Jul/2024 00:13:10] "GET /browser/ping HTTP/1.1" 200 -
+2024-07-08 00:13:12,261 INFO Получен запрос на /ping
+2024-07-08 00:13:12,262 INFO 127.0.0.1 - - [08/Jul/2024 00:13:12] "GET /browser/ping HTTP/1.1" 200 -
+2024-07-08 00:13:14,497 INFO ====== WebDriver manager ======
+2024-07-08 00:13:14,627 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:13:15,289 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:13:15,823 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:13:16,339 INFO WebDriver version 126.0.6478.126 selected
+2024-07-08 00:13:16,345 INFO Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/linux64/chromedriver-linux64.zip
+2024-07-08 00:13:16,346 INFO About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/126.0.6478.126/linux64/chromedriver-linux64.zip
+2024-07-08 00:13:16,663 INFO Driver downloading response is 200
+2024-07-08 00:13:17,105 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:13:17,294 INFO Driver has been saved in cache [/home/fckjesus/.wdm/drivers/chromedriver/linux64/126.0.6478.126]
+2024-07-08 00:13:18,454 INFO Браузер открыт с ID: 5331897f-76b0-4e33-8f52-1f55fe118f2b. Все браузеры: dict_keys(['5331897f-76b0-4e33-8f52-1f55fe118f2b'])
+2024-07-08 00:13:18,454 INFO Браузер открыт с ID: 5331897f-76b0-4e33-8f52-1f55fe118f2b
+2024-07-08 00:13:18,454 INFO 127.0.0.1 - - [08/Jul/2024 00:13:18] "POST /browser/open HTTP/1.1" 200 -
+2024-07-08 00:13:18,460 INFO Получен список всех открытых браузеров
+2024-07-08 00:13:18,461 INFO 127.0.0.1 - - [08/Jul/2024 00:13:18] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:14:54,918 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:14:54,918 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:14:54,918 INFO  * Restarting with stat
+2024-07-08 00:14:55,200 WARNING  * Debugger is active!
+2024-07-08 00:14:55,204 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:15:15,701 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:15:15,701 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:15:15,701 INFO  * Restarting with stat
+2024-07-08 00:15:15,978 WARNING  * Debugger is active!
+2024-07-08 00:15:15,982 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:15:52,642 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:15:52,642 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:15:52,643 INFO  * Restarting with stat
+2024-07-08 00:15:52,924 WARNING  * Debugger is active!
+2024-07-08 00:15:52,929 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:16:02,288 INFO ====== WebDriver manager ======
+2024-07-08 00:16:02,408 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:16:02,858 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:16:03,164 INFO Driver [/home/fckjesus/.wdm/drivers/chromedriver/linux64/126.0.6478.126/chromedriver] found in cache
+2024-07-08 00:16:04,176 INFO Браузер открыт с ID: 8b163903-4c48-47c5-ad33-20715282598f. Все браузеры: dict_keys(['8b163903-4c48-47c5-ad33-20715282598f'])
+2024-07-08 00:16:04,176 INFO Браузер открыт с ID: 8b163903-4c48-47c5-ad33-20715282598f
+2024-07-08 00:16:04,176 INFO 127.0.0.1 - - [08/Jul/2024 00:16:04] "POST /browser/open HTTP/1.1" 200 -
+2024-07-08 00:16:04,183 INFO Получен список всех открытых браузеров
+2024-07-08 00:16:04,183 INFO 127.0.0.1 - - [08/Jul/2024 00:16:04] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:16:34,601 INFO ====== WebDriver manager ======
+2024-07-08 00:16:34,730 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:16:35,164 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:16:35,590 INFO Driver [/home/fckjesus/.wdm/drivers/chromedriver/linux64/126.0.6478.126/chromedriver] found in cache
+2024-07-08 00:16:37,152 INFO Браузер открыт с ID: a1a7e703-8672-444f-aa4d-b28bcbe720ac. Все браузеры: dict_keys(['8b163903-4c48-47c5-ad33-20715282598f', 'a1a7e703-8672-444f-aa4d-b28bcbe720ac'])
+2024-07-08 00:16:37,153 INFO Браузер открыт с ID: a1a7e703-8672-444f-aa4d-b28bcbe720ac
+2024-07-08 00:16:37,153 INFO 127.0.0.1 - - [08/Jul/2024 00:16:37] "POST /browser/open HTTP/1.1" 200 -
+2024-07-08 00:16:37,159 INFO Получен список всех открытых браузеров
+2024-07-08 00:16:37,159 INFO 127.0.0.1 - - [08/Jul/2024 00:16:37] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:16:38,494 INFO ====== WebDriver manager ======
+2024-07-08 00:16:38,592 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:16:38,667 INFO ====== WebDriver manager ======
+2024-07-08 00:16:38,725 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:16:38,780 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:16:38,861 INFO ====== WebDriver manager ======
+2024-07-08 00:16:38,871 INFO Driver [/home/fckjesus/.wdm/drivers/chromedriver/linux64/126.0.6478.126/chromedriver] found in cache
+2024-07-08 00:16:38,897 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:16:38,976 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:16:39,050 INFO ====== WebDriver manager ======
+2024-07-08 00:16:39,110 INFO Driver [/home/fckjesus/.wdm/drivers/chromedriver/linux64/126.0.6478.126/chromedriver] found in cache
+2024-07-08 00:16:39,180 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:16:39,180 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:16:39,217 INFO ====== WebDriver manager ======
+2024-07-08 00:16:39,330 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:16:39,390 INFO ====== WebDriver manager ======
+2024-07-08 00:16:39,408 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:16:39,418 INFO Driver [/home/fckjesus/.wdm/drivers/chromedriver/linux64/126.0.6478.126/chromedriver] found in cache
+2024-07-08 00:16:39,493 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:16:39,527 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:16:39,692 INFO Driver [/home/fckjesus/.wdm/drivers/chromedriver/linux64/126.0.6478.126/chromedriver] found in cache
+2024-07-08 00:16:39,730 INFO Driver [/home/fckjesus/.wdm/drivers/chromedriver/linux64/126.0.6478.126/chromedriver] found in cache
+2024-07-08 00:16:39,735 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:16:39,887 INFO Driver [/home/fckjesus/.wdm/drivers/chromedriver/linux64/126.0.6478.126/chromedriver] found in cache
+2024-07-08 00:16:40,451 INFO Браузер открыт с ID: 2eb4a431-fcbc-436a-878a-f1afde059fd0. Все браузеры: dict_keys(['8b163903-4c48-47c5-ad33-20715282598f', 'a1a7e703-8672-444f-aa4d-b28bcbe720ac', '2eb4a431-fcbc-436a-878a-f1afde059fd0'])
+2024-07-08 00:16:40,454 INFO Браузер открыт с ID: 2eb4a431-fcbc-436a-878a-f1afde059fd0
+2024-07-08 00:16:40,455 INFO 127.0.0.1 - - [08/Jul/2024 00:16:40] "POST /browser/open HTTP/1.1" 200 -
+2024-07-08 00:16:40,466 INFO ====== WebDriver manager ======
+2024-07-08 00:16:40,689 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:16:40,862 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:16:41,071 INFO Браузер открыт с ID: 71049ff0-fc64-48ed-99e7-c3599b397f1a. Все браузеры: dict_keys(['8b163903-4c48-47c5-ad33-20715282598f', 'a1a7e703-8672-444f-aa4d-b28bcbe720ac', '2eb4a431-fcbc-436a-878a-f1afde059fd0', '71049ff0-fc64-48ed-99e7-c3599b397f1a'])
+2024-07-08 00:16:41,072 INFO Браузер открыт с ID: 71049ff0-fc64-48ed-99e7-c3599b397f1a
+2024-07-08 00:16:41,073 INFO 127.0.0.1 - - [08/Jul/2024 00:16:41] "POST /browser/open HTTP/1.1" 200 -
+2024-07-08 00:16:41,083 INFO ====== WebDriver manager ======
+2024-07-08 00:16:41,152 INFO Driver [/home/fckjesus/.wdm/drivers/chromedriver/linux64/126.0.6478.126/chromedriver] found in cache
+2024-07-08 00:16:41,306 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:16:41,482 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:16:41,491 INFO Браузер открыт с ID: 5b120193-c251-4dfa-97cc-23c699b85c2f. Все браузеры: dict_keys(['8b163903-4c48-47c5-ad33-20715282598f', 'a1a7e703-8672-444f-aa4d-b28bcbe720ac', '2eb4a431-fcbc-436a-878a-f1afde059fd0', '71049ff0-fc64-48ed-99e7-c3599b397f1a', '5b120193-c251-4dfa-97cc-23c699b85c2f'])
+2024-07-08 00:16:41,491 INFO Браузер открыт с ID: 5b120193-c251-4dfa-97cc-23c699b85c2f
+2024-07-08 00:16:41,492 INFO 127.0.0.1 - - [08/Jul/2024 00:16:41] "POST /browser/open HTTP/1.1" 200 -
+2024-07-08 00:16:41,498 INFO ====== WebDriver manager ======
+2024-07-08 00:16:41,636 INFO Driver [/home/fckjesus/.wdm/drivers/chromedriver/linux64/126.0.6478.126/chromedriver] found in cache
+2024-07-08 00:16:41,661 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:16:41,910 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:16:42,103 INFO Driver [/home/fckjesus/.wdm/drivers/chromedriver/linux64/126.0.6478.126/chromedriver] found in cache
+2024-07-08 00:16:42,117 INFO Браузер открыт с ID: a326e69c-cf76-4621-96d4-b84e6aba3794. Все браузеры: dict_keys(['8b163903-4c48-47c5-ad33-20715282598f', 'a1a7e703-8672-444f-aa4d-b28bcbe720ac', '2eb4a431-fcbc-436a-878a-f1afde059fd0', '71049ff0-fc64-48ed-99e7-c3599b397f1a', '5b120193-c251-4dfa-97cc-23c699b85c2f', 'a326e69c-cf76-4621-96d4-b84e6aba3794'])
+2024-07-08 00:16:42,120 INFO Браузер открыт с ID: a326e69c-cf76-4621-96d4-b84e6aba3794
+2024-07-08 00:16:42,120 INFO 127.0.0.1 - - [08/Jul/2024 00:16:42] "POST /browser/open HTTP/1.1" 200 -
+2024-07-08 00:16:42,131 INFO Получен список всех открытых браузеров
+2024-07-08 00:16:42,135 INFO 127.0.0.1 - - [08/Jul/2024 00:16:42] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:16:42,151 INFO Получен список всех открытых браузеров
+2024-07-08 00:16:42,151 INFO 127.0.0.1 - - [08/Jul/2024 00:16:42] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:16:42,197 INFO Получен список всех открытых браузеров
+2024-07-08 00:16:42,206 INFO 127.0.0.1 - - [08/Jul/2024 00:16:42] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:16:42,245 INFO Получен список всех открытых браузеров
+2024-07-08 00:16:42,245 INFO 127.0.0.1 - - [08/Jul/2024 00:16:42] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:16:42,295 INFO Браузер открыт с ID: eca0b7dc-2896-4021-8a3c-43405fc018a4. Все браузеры: dict_keys(['8b163903-4c48-47c5-ad33-20715282598f', 'a1a7e703-8672-444f-aa4d-b28bcbe720ac', '2eb4a431-fcbc-436a-878a-f1afde059fd0', '71049ff0-fc64-48ed-99e7-c3599b397f1a', '5b120193-c251-4dfa-97cc-23c699b85c2f', 'a326e69c-cf76-4621-96d4-b84e6aba3794', 'eca0b7dc-2896-4021-8a3c-43405fc018a4'])
+2024-07-08 00:16:42,300 INFO Браузер открыт с ID: eca0b7dc-2896-4021-8a3c-43405fc018a4
+2024-07-08 00:16:42,300 INFO 127.0.0.1 - - [08/Jul/2024 00:16:42] "POST /browser/open HTTP/1.1" 200 -
+2024-07-08 00:16:42,325 INFO Получен список всех открытых браузеров
+2024-07-08 00:16:42,327 INFO 127.0.0.1 - - [08/Jul/2024 00:16:42] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:16:42,429 INFO Браузер открыт с ID: 1bc828c0-ad16-43ef-8d6b-4f42d9f924ce. Все браузеры: dict_keys(['8b163903-4c48-47c5-ad33-20715282598f', 'a1a7e703-8672-444f-aa4d-b28bcbe720ac', '2eb4a431-fcbc-436a-878a-f1afde059fd0', '71049ff0-fc64-48ed-99e7-c3599b397f1a', '5b120193-c251-4dfa-97cc-23c699b85c2f', 'a326e69c-cf76-4621-96d4-b84e6aba3794', 'eca0b7dc-2896-4021-8a3c-43405fc018a4', '1bc828c0-ad16-43ef-8d6b-4f42d9f924ce'])
+2024-07-08 00:16:42,429 INFO Браузер открыт с ID: 1bc828c0-ad16-43ef-8d6b-4f42d9f924ce
+2024-07-08 00:16:42,430 INFO 127.0.0.1 - - [08/Jul/2024 00:16:42] "POST /browser/open HTTP/1.1" 200 -
+2024-07-08 00:16:42,462 INFO Получен список всех открытых браузеров
+2024-07-08 00:16:42,465 INFO 127.0.0.1 - - [08/Jul/2024 00:16:42] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:16:43,248 INFO Браузер открыт с ID: 12aecba6-d144-48e5-bbd4-c3690d4de572. Все браузеры: dict_keys(['8b163903-4c48-47c5-ad33-20715282598f', 'a1a7e703-8672-444f-aa4d-b28bcbe720ac', '2eb4a431-fcbc-436a-878a-f1afde059fd0', '71049ff0-fc64-48ed-99e7-c3599b397f1a', '5b120193-c251-4dfa-97cc-23c699b85c2f', 'a326e69c-cf76-4621-96d4-b84e6aba3794', 'eca0b7dc-2896-4021-8a3c-43405fc018a4', '1bc828c0-ad16-43ef-8d6b-4f42d9f924ce', '12aecba6-d144-48e5-bbd4-c3690d4de572'])
+2024-07-08 00:16:43,248 INFO Браузер открыт с ID: 12aecba6-d144-48e5-bbd4-c3690d4de572
+2024-07-08 00:16:43,248 INFO 127.0.0.1 - - [08/Jul/2024 00:16:43] "POST /browser/open HTTP/1.1" 200 -
+2024-07-08 00:16:43,254 INFO Получен список всех открытых браузеров
+2024-07-08 00:16:43,255 INFO 127.0.0.1 - - [08/Jul/2024 00:16:43] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:16:43,610 INFO Браузер открыт с ID: be3dbee9-1c8f-435d-9227-db25ef8ac6f3. Все браузеры: dict_keys(['8b163903-4c48-47c5-ad33-20715282598f', 'a1a7e703-8672-444f-aa4d-b28bcbe720ac', '2eb4a431-fcbc-436a-878a-f1afde059fd0', '71049ff0-fc64-48ed-99e7-c3599b397f1a', '5b120193-c251-4dfa-97cc-23c699b85c2f', 'a326e69c-cf76-4621-96d4-b84e6aba3794', 'eca0b7dc-2896-4021-8a3c-43405fc018a4', '1bc828c0-ad16-43ef-8d6b-4f42d9f924ce', '12aecba6-d144-48e5-bbd4-c3690d4de572', 'be3dbee9-1c8f-435d-9227-db25ef8ac6f3'])
+2024-07-08 00:16:43,610 INFO Браузер открыт с ID: be3dbee9-1c8f-435d-9227-db25ef8ac6f3
+2024-07-08 00:16:43,611 INFO 127.0.0.1 - - [08/Jul/2024 00:16:43] "POST /browser/open HTTP/1.1" 200 -
+2024-07-08 00:16:43,618 INFO Получен список всех открытых браузеров
+2024-07-08 00:16:43,618 INFO 127.0.0.1 - - [08/Jul/2024 00:16:43] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:16:43,836 INFO Браузер открыт с ID: f325d709-9d63-4a93-b8cc-10ad915fdf77. Все браузеры: dict_keys(['8b163903-4c48-47c5-ad33-20715282598f', 'a1a7e703-8672-444f-aa4d-b28bcbe720ac', '2eb4a431-fcbc-436a-878a-f1afde059fd0', '71049ff0-fc64-48ed-99e7-c3599b397f1a', '5b120193-c251-4dfa-97cc-23c699b85c2f', 'a326e69c-cf76-4621-96d4-b84e6aba3794', 'eca0b7dc-2896-4021-8a3c-43405fc018a4', '1bc828c0-ad16-43ef-8d6b-4f42d9f924ce', '12aecba6-d144-48e5-bbd4-c3690d4de572', 'be3dbee9-1c8f-435d-9227-db25ef8ac6f3', 'f325d709-9d63-4a93-b8cc-10ad915fdf77'])
+2024-07-08 00:16:43,836 INFO Браузер открыт с ID: f325d709-9d63-4a93-b8cc-10ad915fdf77
+2024-07-08 00:16:43,836 INFO 127.0.0.1 - - [08/Jul/2024 00:16:43] "POST /browser/open HTTP/1.1" 200 -
+2024-07-08 00:16:43,844 INFO Получен список всех открытых браузеров
+2024-07-08 00:16:43,844 INFO 127.0.0.1 - - [08/Jul/2024 00:16:43] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:16:48,961 INFO Браузер закрыт с ID: 8b163903-4c48-47c5-ad33-20715282598f
+2024-07-08 00:16:48,961 INFO Браузер закрыт с ID: 8b163903-4c48-47c5-ad33-20715282598f
+2024-07-08 00:16:48,961 INFO 127.0.0.1 - - [08/Jul/2024 00:16:48] "POST /browser/close/8b163903-4c48-47c5-ad33-20715282598f HTTP/1.1" 200 -
+2024-07-08 00:16:48,967 INFO Получен список всех открытых браузеров
+2024-07-08 00:16:48,967 INFO 127.0.0.1 - - [08/Jul/2024 00:16:48] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:16:51,042 INFO Браузер закрыт с ID: f325d709-9d63-4a93-b8cc-10ad915fdf77
+2024-07-08 00:16:51,043 INFO Браузер закрыт с ID: f325d709-9d63-4a93-b8cc-10ad915fdf77
+2024-07-08 00:16:51,043 INFO 127.0.0.1 - - [08/Jul/2024 00:16:51] "POST /browser/close/f325d709-9d63-4a93-b8cc-10ad915fdf77 HTTP/1.1" 200 -
+2024-07-08 00:16:51,049 INFO Получен список всех открытых браузеров
+2024-07-08 00:16:51,049 INFO 127.0.0.1 - - [08/Jul/2024 00:16:51] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:16:53,604 INFO Браузер закрыт с ID: be3dbee9-1c8f-435d-9227-db25ef8ac6f3
+2024-07-08 00:16:53,604 INFO Браузер закрыт с ID: be3dbee9-1c8f-435d-9227-db25ef8ac6f3
+2024-07-08 00:16:53,604 INFO 127.0.0.1 - - [08/Jul/2024 00:16:53] "POST /browser/close/be3dbee9-1c8f-435d-9227-db25ef8ac6f3 HTTP/1.1" 200 -
+2024-07-08 00:16:53,610 INFO Получен список всех открытых браузеров
+2024-07-08 00:16:53,610 INFO 127.0.0.1 - - [08/Jul/2024 00:16:53] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:17:02,598 INFO Браузер закрыт с ID: 12aecba6-d144-48e5-bbd4-c3690d4de572
+2024-07-08 00:17:02,598 INFO Браузер закрыт с ID: 12aecba6-d144-48e5-bbd4-c3690d4de572
+2024-07-08 00:17:02,598 INFO 127.0.0.1 - - [08/Jul/2024 00:17:02] "POST /browser/close/12aecba6-d144-48e5-bbd4-c3690d4de572 HTTP/1.1" 200 -
+2024-07-08 00:17:02,605 INFO Получен список всех открытых браузеров
+2024-07-08 00:17:02,605 INFO 127.0.0.1 - - [08/Jul/2024 00:17:02] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:17:03,785 INFO ====== WebDriver manager ======
+2024-07-08 00:17:03,898 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:17:04,022 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:17:04,142 INFO Driver [/home/fckjesus/.wdm/drivers/chromedriver/linux64/126.0.6478.126/chromedriver] found in cache
+2024-07-08 00:17:05,085 INFO Браузер закрыт с ID: 1bc828c0-ad16-43ef-8d6b-4f42d9f924ce
+2024-07-08 00:17:05,085 INFO Браузер закрыт с ID: 1bc828c0-ad16-43ef-8d6b-4f42d9f924ce
+2024-07-08 00:17:05,085 INFO 127.0.0.1 - - [08/Jul/2024 00:17:05] "POST /browser/close/1bc828c0-ad16-43ef-8d6b-4f42d9f924ce HTTP/1.1" 200 -
+2024-07-08 00:17:05,091 INFO Получен список всех открытых браузеров
+2024-07-08 00:17:05,092 INFO 127.0.0.1 - - [08/Jul/2024 00:17:05] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:17:05,230 INFO Браузер открыт с ID: ff63c637-5c35-4c1f-b4e6-59f730799407. Все браузеры: dict_keys(['a1a7e703-8672-444f-aa4d-b28bcbe720ac', '2eb4a431-fcbc-436a-878a-f1afde059fd0', '71049ff0-fc64-48ed-99e7-c3599b397f1a', '5b120193-c251-4dfa-97cc-23c699b85c2f', 'a326e69c-cf76-4621-96d4-b84e6aba3794', 'eca0b7dc-2896-4021-8a3c-43405fc018a4', 'ff63c637-5c35-4c1f-b4e6-59f730799407'])
+2024-07-08 00:17:05,230 INFO Браузер открыт с ID: ff63c637-5c35-4c1f-b4e6-59f730799407
+2024-07-08 00:17:05,230 INFO 127.0.0.1 - - [08/Jul/2024 00:17:05] "POST /browser/open HTTP/1.1" 200 -
+2024-07-08 00:17:05,236 INFO Получен список всех открытых браузеров
+2024-07-08 00:17:05,236 INFO 127.0.0.1 - - [08/Jul/2024 00:17:05] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:17:06,674 INFO Браузер закрыт с ID: eca0b7dc-2896-4021-8a3c-43405fc018a4
+2024-07-08 00:17:06,674 INFO Браузер закрыт с ID: eca0b7dc-2896-4021-8a3c-43405fc018a4
+2024-07-08 00:17:06,674 INFO 127.0.0.1 - - [08/Jul/2024 00:17:06] "POST /browser/close/eca0b7dc-2896-4021-8a3c-43405fc018a4 HTTP/1.1" 200 -
+2024-07-08 00:17:06,680 INFO Получен список всех открытых браузеров
+2024-07-08 00:17:06,680 INFO 127.0.0.1 - - [08/Jul/2024 00:17:06] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:17:09,837 INFO Браузер закрыт с ID: ff63c637-5c35-4c1f-b4e6-59f730799407
+2024-07-08 00:17:09,837 INFO Браузер закрыт с ID: ff63c637-5c35-4c1f-b4e6-59f730799407
+2024-07-08 00:17:09,838 INFO 127.0.0.1 - - [08/Jul/2024 00:17:09] "POST /browser/close/ff63c637-5c35-4c1f-b4e6-59f730799407 HTTP/1.1" 200 -
+2024-07-08 00:17:09,843 INFO Получен список всех открытых браузеров
+2024-07-08 00:17:09,843 INFO 127.0.0.1 - - [08/Jul/2024 00:17:09] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:17:11,787 INFO Браузер закрыт с ID: a326e69c-cf76-4621-96d4-b84e6aba3794
+2024-07-08 00:17:11,787 INFO Браузер закрыт с ID: a326e69c-cf76-4621-96d4-b84e6aba3794
+2024-07-08 00:17:11,788 INFO 127.0.0.1 - - [08/Jul/2024 00:17:11] "POST /browser/close/a326e69c-cf76-4621-96d4-b84e6aba3794 HTTP/1.1" 200 -
+2024-07-08 00:17:11,795 INFO Получен список всех открытых браузеров
+2024-07-08 00:17:11,795 INFO 127.0.0.1 - - [08/Jul/2024 00:17:11] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:17:13,470 INFO Браузер закрыт с ID: 5b120193-c251-4dfa-97cc-23c699b85c2f
+2024-07-08 00:17:13,470 INFO Браузер закрыт с ID: 5b120193-c251-4dfa-97cc-23c699b85c2f
+2024-07-08 00:17:13,470 INFO 127.0.0.1 - - [08/Jul/2024 00:17:13] "POST /browser/close/5b120193-c251-4dfa-97cc-23c699b85c2f HTTP/1.1" 200 -
+2024-07-08 00:17:13,479 INFO Получен список всех открытых браузеров
+2024-07-08 00:17:13,479 INFO 127.0.0.1 - - [08/Jul/2024 00:17:13] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:17:15,152 INFO Браузер закрыт с ID: 71049ff0-fc64-48ed-99e7-c3599b397f1a
+2024-07-08 00:17:15,153 INFO Браузер закрыт с ID: 71049ff0-fc64-48ed-99e7-c3599b397f1a
+2024-07-08 00:17:15,153 INFO 127.0.0.1 - - [08/Jul/2024 00:17:15] "POST /browser/close/71049ff0-fc64-48ed-99e7-c3599b397f1a HTTP/1.1" 200 -
+2024-07-08 00:17:15,159 INFO Получен список всех открытых браузеров
+2024-07-08 00:17:15,159 INFO 127.0.0.1 - - [08/Jul/2024 00:17:15] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:17:16,707 INFO Браузер закрыт с ID: 2eb4a431-fcbc-436a-878a-f1afde059fd0
+2024-07-08 00:17:16,708 INFO Браузер закрыт с ID: 2eb4a431-fcbc-436a-878a-f1afde059fd0
+2024-07-08 00:17:16,708 INFO 127.0.0.1 - - [08/Jul/2024 00:17:16] "POST /browser/close/2eb4a431-fcbc-436a-878a-f1afde059fd0 HTTP/1.1" 200 -
+2024-07-08 00:17:16,714 INFO Получен список всех открытых браузеров
+2024-07-08 00:17:16,715 INFO 127.0.0.1 - - [08/Jul/2024 00:17:16] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:17:18,145 INFO Браузер закрыт с ID: a1a7e703-8672-444f-aa4d-b28bcbe720ac
+2024-07-08 00:17:18,145 INFO Браузер закрыт с ID: a1a7e703-8672-444f-aa4d-b28bcbe720ac
+2024-07-08 00:17:18,145 INFO 127.0.0.1 - - [08/Jul/2024 00:17:18] "POST /browser/close/a1a7e703-8672-444f-aa4d-b28bcbe720ac HTTP/1.1" 200 -
+2024-07-08 00:17:18,151 INFO Получен список всех открытых браузеров
+2024-07-08 00:17:18,152 INFO 127.0.0.1 - - [08/Jul/2024 00:17:18] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:17:33,986 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:17:33,986 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:17:33,987 INFO  * Restarting with stat
+2024-07-08 00:17:34,285 WARNING  * Debugger is active!
+2024-07-08 00:17:34,289 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:18:05,289 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:18:05,289 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:18:05,290 INFO  * Restarting with stat
+2024-07-08 00:18:05,569 WARNING  * Debugger is active!
+2024-07-08 00:18:05,572 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:18:57,889 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:18:57,890 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:18:57,890 INFO  * Restarting with stat
+2024-07-08 00:18:58,167 WARNING  * Debugger is active!
+2024-07-08 00:18:58,171 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:19:32,127 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:19:32,127 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:19:32,127 INFO  * Restarting with stat
+2024-07-08 00:19:32,438 WARNING  * Debugger is active!
+2024-07-08 00:19:32,442 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:20:10,894 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:20:10,894 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:20:10,895 INFO  * Restarting with stat
+2024-07-08 00:20:11,193 WARNING  * Debugger is active!
+2024-07-08 00:20:11,197 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:20:11,230 INFO Получен список всех открытых браузеров
+2024-07-08 00:20:11,231 INFO 127.0.0.1 - - [08/Jul/2024 00:20:11] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:21:14,237 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:21:14,237 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:21:14,238 INFO  * Restarting with stat
+2024-07-08 00:21:14,528 WARNING  * Debugger is active!
+2024-07-08 00:21:14,533 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:22:18,960 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:22:18,961 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:22:18,962 INFO  * Restarting with stat
+2024-07-08 00:22:19,246 WARNING  * Debugger is active!
+2024-07-08 00:22:19,250 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:23:00,243 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:23:00,243 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:23:00,244 INFO  * Restarting with stat
+2024-07-08 00:23:00,533 WARNING  * Debugger is active!
+2024-07-08 00:23:00,537 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:23:20,896 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:23:20,896 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:23:20,898 INFO  * Restarting with stat
+2024-07-08 00:23:21,186 WARNING  * Debugger is active!
+2024-07-08 00:23:21,190 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:23:54,196 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:23:54,196 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:23:54,197 INFO  * Restarting with stat
+2024-07-08 00:23:54,487 WARNING  * Debugger is active!
+2024-07-08 00:23:54,491 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:24:19,561 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:24:19,561 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:24:19,562 INFO  * Restarting with stat
+2024-07-08 00:24:19,846 WARNING  * Debugger is active!
+2024-07-08 00:24:19,850 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:24:44,816 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:24:44,816 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:24:44,817 INFO  * Restarting with stat
+2024-07-08 00:24:45,102 WARNING  * Debugger is active!
+2024-07-08 00:24:45,106 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:25:11,926 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:25:11,927 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:25:11,927 INFO  * Restarting with stat
+2024-07-08 00:25:12,197 WARNING  * Debugger is active!
+2024-07-08 00:25:12,201 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:25:34,428 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:25:34,428 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:25:34,429 INFO  * Restarting with stat
+2024-07-08 00:25:34,713 WARNING  * Debugger is active!
+2024-07-08 00:25:34,716 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:30:08,063 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:30:08,063 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:30:08,064 INFO  * Restarting with stat
+2024-07-08 00:30:08,343 WARNING  * Debugger is active!
+2024-07-08 00:30:08,347 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:31:45,645 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:31:45,645 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:31:45,646 INFO  * Restarting with stat
+2024-07-08 00:31:45,951 WARNING  * Debugger is active!
+2024-07-08 00:31:45,957 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:33:58,588 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:33:58,588 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:33:58,589 INFO  * Restarting with stat
+2024-07-08 00:33:58,888 WARNING  * Debugger is active!
+2024-07-08 00:33:58,892 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:37:22,981 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-08 00:37:22,981 INFO [33mPress CTRL+C to quit[0m
+2024-07-08 00:37:22,982 INFO  * Restarting with stat
+2024-07-08 00:37:23,293 WARNING  * Debugger is active!
+2024-07-08 00:37:23,297 INFO  * Debugger PIN: 163-687-946
+2024-07-08 00:37:52,822 INFO Получен список всех открытых браузеров
+2024-07-08 00:37:52,822 INFO 127.0.0.1 - - [08/Jul/2024 00:37:52] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:38:03,165 INFO ====== WebDriver manager ======
+2024-07-08 00:38:03,297 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:38:03,436 INFO Get LATEST chromedriver version for google-chrome
+2024-07-08 00:38:03,626 INFO Driver [/home/fckjesus/.wdm/drivers/chromedriver/linux64/126.0.6478.126/chromedriver] found in cache
+2024-07-08 00:38:04,756 INFO Браузер открыт с ID: edc80061-b155-4c89-8f31-d61ea73e98c9. Все браузеры: dict_keys(['edc80061-b155-4c89-8f31-d61ea73e98c9'])
+2024-07-08 00:38:04,756 INFO Браузер открыт с ID: edc80061-b155-4c89-8f31-d61ea73e98c9
+2024-07-08 00:38:04,756 INFO 127.0.0.1 - - [08/Jul/2024 00:38:04] "POST /browser/open HTTP/1.1" 200 -
+2024-07-08 00:38:04,762 INFO Получен список всех открытых браузеров
+2024-07-08 00:38:04,762 INFO 127.0.0.1 - - [08/Jul/2024 00:38:04] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-08 00:38:25,853 INFO Браузер закрыт с ID: edc80061-b155-4c89-8f31-d61ea73e98c9
+2024-07-08 00:38:25,853 INFO Браузер закрыт с ID: edc80061-b155-4c89-8f31-d61ea73e98c9
+2024-07-08 00:38:25,854 INFO 127.0.0.1 - - [08/Jul/2024 00:38:25] "POST /browser/close/edc80061-b155-4c89-8f31-d61ea73e98c9 HTTP/1.1" 200 -
+2024-07-08 00:38:25,861 INFO Получен список всех открытых браузеров
+2024-07-08 00:38:25,862 INFO 127.0.0.1 - - [08/Jul/2024 00:38:25] "GET /browser/browsers HTTP/1.1" 200 -

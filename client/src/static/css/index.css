@@ -1,0 +1,90 @@
+
+
+#content {
+    
+    --colors-bg--300: #1e181e;
+    --colors-bg--500: #191a1e;
+    --colors-primary--200: #f4908b;
+    --colors-primary--300: #ea6f69;
+    --colors-primary--500: #e8615a;
+    --colors-primary--600: #9c3230;
+    --colors-primary--700: #5e2122;
+    --colors-primary--800: #451717;
+    --colors-primary--900: #3c181a;
+    --colors-secondary--500: #2be4ea;
+    --colors-secondary--900: #295459;
+    --colors-tertiary--500: #fed33f;
+    --colors-on_bg--500: var(--colors-primary--500);
+    --colors-on_tertiary--500: var(--colors-bg--300);
+    --colors-on_primary--500: var(--colors-primary--200);
+    --colors-active--500: #2bfea0;
+    background-color: var(--colors-bg--500);
+    background-image: radial-gradient(
+    ellipse at 33% 10%,
+    #461616 0%,
+    transparent 75%
+    );
+    background-repeat: no-repeat;
+    border-bottom: 1px solid var(--colors-tertiary--500);
+  }
+
+#messages {
+    background-color: var(--colors-bg--300);
+    border: 1px solid var(--colors-tertiary--500);
+    border-radius: 3px;
+    color: var(--colors-tertiary--500);
+    padding: 0.75rem;
+  }
+
+.container {
+    
+    display: flex;
+    flex-direction: column;
+  }
+
+.main_content {
+    display: flex;
+    justify-content: start;
+  }
+
+.side_bar {
+    margin-top: 5px;
+    min-width: 20%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.side_bar button {
+    
+    background-color: var(--colors-bg--300);
+    
+    text-align: left;
+    margin-top: 0.125rem;
+    border: 1px solid #9c3230;
+    border-radius: 3px;
+    color: var(--colors-secondary--500);
+    display: block;
+    font-family: var(--fonts-primary);
+    padding: 0.5rem 0.75rem;
+    transition: background-color 0.25s;
+}
+
+.side_bar button:hover {
+    background-color: #391419;
+    border: 1px solid #5d2322;
+}
+
+.info_bar {
+    width: 100%;
+    margin-top: calc(5px + 0.125rem);
+    margin-left: 5px;
+}
+#browserList {
+    
+    background-color: var(--colors-bg--300);
+    border: 2px solid var(--colors-primary--600);
+    border-radius: 3px;
+    color: var(--colors-on_bg--500);
+    padding: 0.75rem;
+}
