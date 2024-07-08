@@ -22,7 +22,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 class OzonBrowser:
-    def __init__(self, url="https://moderation.ozon.ru/moderation", is_headless=False):
+    def __init__(self, url="https://bot.sannysoft.com", is_headless=False):
         self.driver = None
         self.url = url
         self.is_headless = is_headless

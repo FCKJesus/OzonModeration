@@ -143,10 +143,12 @@ function createWindow() {
           const cookies = response.cookies;
           fs.writeFileSync(filePath, JSON.stringify(cookies, null, 2));
           event.sender.send('cookies-saved', cookies);
+          mainWindow.webContents.send('show-message', 'Куки сохранены');
         } catch (err) {
           console.error('Error parsing JSON response:', err);
           console.error('Response data:', data);
           event.sender.send('cookies-error', 'Error parsing JSON response');
+          mainWindow.webContents.send('show-message', 'Ошибка при сохранении куков');
         }
       });
     });
@@ -154,6 +156,7 @@ function createWindow() {
     req.on('error', (e) => {
       console.error(e);
       event.sender.send('cookies-error', e.message);
+      mainWindow.webContents.send('show-message', `Ошибка: ${e.message}`);
     });
 
     req.end();
@@ -180,11 +183,13 @@ function createWindow() {
 
       res.on('end', () => {
         console.log('Cookies loaded to server');
+        mainWindow.webContents.send('show-message', 'Куки загружены');
       });
     });
 
     req.on('error', (e) => {
       console.error(e);
+      mainWindow.webContents.send('show-message', `Ошибка: ${e.message}`);
     });
 
     req.write(JSON.stringify({ cookies }));
