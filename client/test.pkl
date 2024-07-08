@@ -1,0 +1,109 @@
+[
+  {
+    "domain": ".ozon.ru",
+    "expiry": 1751943983,
+    "httpOnly": true,
+    "name": "__Secure-refresh-token",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "5.69094512.RrlNPhN7S9WnTnO2wCzQog.45.AUreXLl4f3RRnY971WKbclnCQVZz_8RVFN15Z07UDb8xbFtXlRVgp5yLIar_YTbiXu5SdrIh6kw9uPOYsBtRmeI.20240116184729.20240708050623.UleymDW0QLo19neCND7V8lm5J1dBZvzVSSYoprMunt4.158691405e2e3e81e"
+  },
+  {
+    "domain": ".ozon.ru",
+    "expiry": 1751943983,
+    "httpOnly": true,
+    "name": "__Secure-access-token",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "5.69094512.RrlNPhN7S9WnTnO2wCzQog.45.AUreXLl4f3RRnY971WKbclnCQVZz_8RVFN15Z07UDb8xbFtXlRVgp5yLIar_YTbiXu5SdrIh6kw9uPOYsBtRmeI.20240116184729.20240708050623.-uj01jIr27IltSpNyaw4_EA39cVWam4MaqktriwVuos.12535b823d51f76f8"
+  },
+  {
+    "domain": ".ozon.ru",
+    "expiry": 1751943983,
+    "httpOnly": false,
+    "name": "__Secure-ab-group",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "45"
+  },
+  {
+    "domain": ".ozon.ru",
+    "expiry": 1751943983,
+    "httpOnly": true,
+    "name": "__Secure-user-id",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "69094512"
+  },
+  {
+    "domain": ".ozon.ru",
+    "expiry": 1720494383,
+    "httpOnly": false,
+    "name": "rfuid",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "NjkyNDcyNDUyLDEyNC4wNDM0NzUyNzUxNjA3NCwxMzkzNjg1NDU1LC0xLDEwMTUyNTQxODUsVzNzaWJtRnRaU0k2SWxCRVJpQldhV1YzWlhJaUxDSmtaWE5qY21sd2RHbHZiaUk2SWxCdmNuUmhZbXhsSUVSdlkzVnRaVzUwSUVadmNtMWhkQ0lzSW0xcGJXVlVlWEJsY3lJNlczc2lkSGx3WlNJNkltRndjR3hwWTJGMGFXOXVMM0JrWmlJc0luTjFabVpwZUdWeklqb2ljR1JtSW4wc2V5SjBlWEJsSWpvaWRHVjRkQzl3WkdZaUxDSnpkV1ptYVhobGN5STZJbkJrWmlKOVhYMHNleUp1WVcxbElqb2lRMmh5YjIxbElGQkVSaUJXYVdWM1pYSWlMQ0prWlhOamNtbHdkR2x2YmlJNklsQnZjblJoWW14bElFUnZZM1Z0Wlc1MElFWnZjbTFoZENJc0ltMXBiV1ZVZVhCbGN5STZXM3NpZEhsd1pTSTZJbUZ3Y0d4cFkyRjBhVzl1TDNCa1ppSXNJbk4xWm1acGVHVnpJam9pY0dSbUluMHNleUowZVhCbElqb2lkR1Y0ZEM5d1pHWWlMQ0p6ZFdabWFYaGxjeUk2SW5Ca1ppSjlYWDBzZXlKdVlXMWxJam9pUTJoeWIyMXBkVzBnVUVSR0lGWnBaWGRsY2lJc0ltUmxjMk55YVhCMGFXOXVJam9pVUc5eWRHRmliR1VnUkc5amRXMWxiblFnUm05eWJXRjBJaXdpYldsdFpWUjVjR1Z6SWpwYmV5SjBlWEJsSWpvaVlYQndiR2xqWVhScGIyNHZjR1JtSWl3aWMzVm1abWw0WlhNaU9pSndaR1lpZlN4N0luUjVjR1VpT2lKMFpYaDBMM0JrWmlJc0luTjFabVpwZUdWeklqb2ljR1JtSW4xZGZTeDdJbTVoYldVaU9pSk5hV055YjNOdlpuUWdSV1JuWlNCUVJFWWdWbWxsZDJWeUlpd2laR1Z6WTNKcGNIUnBiMjRpT2lKUWIzSjBZV0pzWlNCRWIyTjFiV1Z1ZENCR2IzSnRZWFFpTENKdGFXMWxWSGx3WlhNaU9sdDdJblI1Y0dVaU9pSmhjSEJzYVdOaGRHbHZiaTl3WkdZaUxDSnpkV1ptYVhobGN5STZJbkJrWmlKOUxIc2lkSGx3WlNJNkluUmxlSFF2Y0dSbUlpd2ljM1ZtWm1sNFpYTWlPaUp3WkdZaWZWMTlMSHNpYm1GdFpTSTZJbGRsWWt0cGRDQmlkV2xzZEMxcGJpQlFSRVlpTENKa1pYTmpjbWx3ZEdsdmJpSTZJbEJ2Y25SaFlteGxJRVJ2WTNWdFpXNTBJRVp2Y20xaGRDSXNJbTFwYldWVWVYQmxjeUk2VzNzaWRIbHdaU0k2SW1Gd2NHeHBZMkYwYVc5dUwzQmtaaUlzSW5OMVptWnBlR1Z6SWpvaWNHUm1JbjBzZXlKMGVYQmxJam9pZEdWNGRDOXdaR1lpTENKemRXWm1hWGhsY3lJNkluQmtaaUo5WFgxZCxXeUp5ZFMxU1ZTSmQsMCwxLDAsMjQsMjM3NDE1OTMwLDgsMjI3MTI2NTIwLDAsMSwwLC00OTEyNzU1MjMsUjI5dloyeGxJRWx1WXk0Z1RtVjBjMk5oY0dVZ1IyVmphMjhnVEdsdWRYZ2dlRGcyWHpZMElEVXVNQ0FvVjJsdVpHOTNjeUJPVkNBeE1DNHdPeUJYYVc0Mk5Ec2dlRFkwS1NCQmNIQnNaVmRsWWt0cGRDODFNemN1TXpZZ0tFdElWRTFNTENCc2FXdGxJRWRsWTJ0dktTQkRhSEp2YldVdk1USTFMakF1TUM0d0lGTmhabUZ5YVM4MU16Y3VNellnTWpBd016QXhNRGNnVFc5NmFXeHNZUT09LGV5SmphSEp2YldVaU9uc2lZWEJ3SWpwN0ltbHpTVzV6ZEdGc2JHVmtJanBtWVd4elpTd2lTVzV6ZEdGc2JGTjBZWFJsSWpwN0lrUkpVMEZDVEVWRUlqb2laR2x6WVdKc1pXUWlMQ0pKVGxOVVFVeE1SVVFpT2lKcGJuTjBZV3hzWldRaUxDSk9UMVJmU1U1VFZFRk1URVZFSWpvaWJtOTBYMmx1YzNSaGJHeGxaQ0o5TENKU2RXNXVhVzVuVTNSaGRHVWlPbnNpUTBGT1RrOVVYMUpWVGlJNkltTmhibTV2ZEY5eWRXNGlMQ0pTUlVGRVdWOVVUMTlTVlU0aU9pSnlaV0ZrZVY5MGIxOXlkVzRpTENKU1ZVNU9TVTVISWpvaWNuVnVibWx1WnlKOWZYMTksNjUsLTgyNjA4MzA1NywxLDEsLTEsMTY5OTk1NDg4NywxNjk5OTU0ODg3LDEwOTQzODIyMDAsOA=="
+  },
+  {
+    "domain": ".ozon.ru",
+    "httpOnly": false,
+    "name": "is_alco_adult_confirmed",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": ""
+  },
+  {
+    "domain": ".ozon.ru",
+    "expiry": 1751943984,
+    "httpOnly": true,
+    "name": "abt_data",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "68f52035e23efd7e57896e89ceb9a001:2d943d1ae4670ed8c64ca1635e734a903478a8ff75725e85278eb50b3fa2bacf5baf2d17408b785254a793d928f6cabd8efd6fc8fa8019257ff67455e39ec530602fa2a7f27b69588644f6ada0a41991afbacccaf9fa781f6dc3a14d72fbc477948ce45597724a86078784c137524a6d2cad9b28d67d3bd07d0c8afebe7a477588a1343691d9257bf2389da45c64b48f9ce577031c4430f8183b1c6e33a3ecabf1a816661ffbff43e552a6910fbad68c60eb68de47b25814c653cea5f444f24e8cd1fe883f32af83714e49056715dbbfefec4f7f7b6af69ae21a2607848493872f279ac8f9485d9fc039f0bbb60556463e08842654bf5dfc59fa23b5318d936433d46be39de6a89e6eec091115b51e0fdf7085fdf36948055d628a6ca7ce14f2"
+  },
+  {
+    "domain": ".ozon.ru",
+    "expiry": 1751322113,
+    "httpOnly": true,
+    "name": "__Secure-ETC",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "ad1547007ca26587a12743a3457d495b"
+  },
+  {
+    "domain": ".ozon.ru",
+    "expiry": 1751322113,
+    "httpOnly": true,
+    "name": "__Secure-ext_xcid",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "63b2d10dcc5da47881a3e2a1000a2761"
+  },
+  {
+    "domain": ".ozon.ru",
+    "httpOnly": false,
+    "name": "is_adult_confirmed",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": ""
+  },
+  {
+    "domain": ".ozon.ru",
+    "httpOnly": false,
+    "name": "xcid",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": true,
+    "value": "63b2d10dcc5da47881a3e2a1000a2761"
+  }
+]

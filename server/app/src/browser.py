@@ -22,7 +22,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 class OzonBrowser:
-    def __init__(self, url="https://bot.sannysoft.com", is_headless=False):
+    def __init__(self, url="https://moderation.ozon.ru/moderation", is_headless=False):
         self.driver = None
         self.url = url
         self.is_headless = is_headless
@@ -90,20 +90,16 @@ class OzonBrowser:
             self.open_browser()
         return self.is_headless
 
-    def save_cookies(self, file_path):
+    def get_cookies(self):
         # Сохраняем куки в файл
         if self.driver:
             cookies = self.driver.get_cookies()
-            with open(file_path, 'wb') as file:
-                pickle.dump(cookies, file)
-            return True
+            return cookies
         return False
 
-    def load_cookies(self, file_path):
+    def load_cookies(self, cookies):
         # Загружаем куки из файла
         if self.driver:
-            with open(file_path, 'rb') as file:
-                cookies = pickle.load(file)
             for cookie in cookies:
                 self.driver.add_cookie(cookie)
             return True
@@ -155,29 +151,27 @@ class BrowserManager:
         logger.error(f"Браузер не найден с ID: {browser_id}")
         return False
 
-    def save_cookies(self, browser_id):
+    def get_cookies(self, browser_id):
         # Сохраняем куки в файл по ID браузера
         if browser_id in self.browsers:
-            file_path = f"{browser_id}.pkl"
-            success = self.browsers[browser_id].save_cookies(file_path)
-            if success:
-                logger.info(f"Куки сохранены для браузера с ID: {browser_id} в файл {file_path}")
+            cookies = self.browsers[browser_id].get_cookies()
+            if cookies:
+                logger.info(f"Куки сохранены для браузера с ID: {browser_id}")
             else:
                 logger.error(f"Не удалось сохранить куки для браузера с ID: {browser_id}")
-            return success
+            return cookies
         logger.error(f"Браузер не найден с ID: {browser_id}")
         return False
 
-    def load_cookies(self, browser_id):
+    def load_cookies(self, browser_id, cookie_file):
         # Загружаем куки из файла по ID браузера
         if browser_id in self.browsers:
-            file_path = f"{browser_id}.pkl"
-            success = self.browsers[browser_id].load_cookies(file_path)
-            if success:
-                logger.info(f"Куки загружены для браузера с ID: {browser_id} из файла {file_path}")
+            cookies = self.browsers[browser_id].load_cookies(cookie_file)
+            if cookies:
+                logger.info(f"Куки загружены для браузера с ID: {browser_id} из файла {cookie_file}")
             else:
                 logger.error(f"Не удалось загрузить куки для браузера с ID: {browser_id}")
-            return success
+            return cookies
         logger.error(f"Браузер не найден с ID: {browser_id}")
         return False
 

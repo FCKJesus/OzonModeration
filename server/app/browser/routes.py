@@ -79,13 +79,13 @@ def get_all_browsers():
     return jsonify(browsers=browsers)
 
 
-@browser_bp.route('/save_cookies/<browser_id>', methods=['POST'])
-def save_cookies(browser_id):
+@browser_bp.route('/get_cookies/<browser_id>', methods=['GET'])
+def get_cookies(browser_id):
     browser_manager = app.config['browser_manager']
-    success = browser_manager.save_cookies(browser_id)
-    if success:
+    cookies = browser_manager.get_cookies(browser_id)
+    if cookies:
         logger.info(f"Куки сохранены для браузера с ID: {browser_id}")
-        return jsonify(message="Куки сохранены")
+        return jsonify(message="Куки сохранены", cookies=cookies)
     else:
         logger.error(f"Браузер не найден с ID: {browser_id}")
         return jsonify(message="Браузер не найден или произошла ошибка", error=True)
@@ -93,8 +93,10 @@ def save_cookies(browser_id):
 
 @browser_bp.route('/load_cookies/<browser_id>', methods=['POST'])
 def load_cookies(browser_id):
+    data = request.get_json()
+    cookies = data['cookies']
     browser_manager = app.config['browser_manager']
-    success = browser_manager.load_cookies(browser_id)
+    success = browser_manager.load_cookies(browser_id, cookies)
     if success:
         logger.info(f"Куки загружены для браузера с ID: {browser_id}")
         return jsonify(message="Куки загружены")

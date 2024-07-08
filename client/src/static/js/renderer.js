@@ -1,19 +1,17 @@
-document.getElementById('minimize').addEventListener('click', () => {
-  window.api.minimize();
-});
-
-document.getElementById('close').addEventListener('click', () => {
-  window.api.close();
-});
-
-// Функция для загрузки страницы и сохранения текущей страницы
-const loadPage = async (page) => {
-  await window.api.setCurrentPage(page);
-  window.api.loadPage(page);
-};
-
-// Загрузка текущей страницы при загрузке документа
 document.addEventListener('DOMContentLoaded', async (event) => {
+  document.getElementById('minimize').addEventListener('click', () => {
+    window.api.minimize();
+  });
+
+  document.getElementById('close').addEventListener('click', () => {
+    window.api.close();
+  });
+
+  const loadPage = async (page) => {
+    await window.api.setCurrentPage(page);
+    window.api.loadPage(page);
+  };
+
   const currentPage = await window.api.getCurrentPage();
   window.api.loadPage(currentPage);
 });
@@ -30,5 +28,3 @@ const handleLogin = async () => {
     document.getElementById('error-message').innerText = result.message;
   }
 };
-
-

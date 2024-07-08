@@ -6,8 +6,20 @@ contextBridge.exposeInMainWorld('api', {
   close: () => ipcRenderer.send('close'),
   getCurrentPage: () => ipcRenderer.invoke('getCurrentPage'),
   setCurrentPage: (page) => ipcRenderer.invoke('setCurrentPage', page),
-  login: (username, password) => ipcRenderer.invoke('login', username, password)
+  login: (username, password) => ipcRenderer.invoke('login', username, password),
+  getCookies: (browserId, filePath) => ipcRenderer.invoke('get-cookies', { browserId, filePath }),
+  loadCookies: (browserId, filePath) => ipcRenderer.invoke('load-cookies', { browserId, filePath }),
+  showSaveDialog: () => ipcRenderer.invoke('show-save-dialog'),
+  showOpenDialog: () => ipcRenderer.invoke('show-open-dialog'),
+  receive: (channel, func) => {
+    let validChannels = ['cookies-saved'];
+    if (validChannels.includes(channel)) {
+      ipcRenderer.on(channel, (event, ...args) => func(...args));
+    }
+  }
 });
+
+
 
 ipcRenderer.on('navigate-to', (event, page) => {
   fetch(`../templates/${page}`)

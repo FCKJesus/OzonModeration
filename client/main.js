@@ -1,5 +1,7 @@
-const { app, BrowserWindow, ipcMain } = require('electron');
+const { app, BrowserWindow, Menu, dialog, ipcMain } = require('electron');
 const path = require('path');
+const fs = require('fs');
+const http = require('http');
 const { handleLogin, handleGetCurrentPage, handleSetCurrentPage } = require('./src/handlers');
 const { startServer, stopServer } = require('./src/server');
 
@@ -44,6 +46,58 @@ function createWindow() {
     }, 5000);
   });
 
+  const menu = Menu.buildFromTemplate([
+    {
+      label: 'File',
+      submenu: [
+        {
+          label: 'Get Cookies from Server',
+          click: () => {
+            dialog.showSaveDialog(mainWindow, {
+              title: 'Save Cookies from Server',
+              defaultPath: path.join(app.getPath('desktop'), 'cookies.pkl'),
+              filters: [
+                { name: 'PKL Files', extensions: ['pkl'] },
+                { name: 'All Files', extensions: ['*'] }
+              ]
+            }).then(result => {
+              if (!result.canceled) {
+                mainWindow.webContents.send('get-cookies', result.filePath);
+              }
+            });
+          }
+        },
+        {
+          label: 'Load Cookies to Server',
+          click: () => {
+            dialog.showOpenDialog(mainWindow, {
+              title: 'Load Cookies to Server',
+              defaultPath: app.getPath('desktop'),
+              filters: [
+                { name: 'PKL Files', extensions: ['pkl'] },
+                { name: 'All Files', extensions: ['*'] }
+              ],
+              properties: ['openFile']
+            }).then(result => {
+              if (!result.canceled) {
+                mainWindow.webContents.send('load-cookies', result.filePaths[0]);
+              }
+            });
+          }
+        },
+        {
+          label: 'Toggle Developer Tools',
+          accelerator: 'Ctrl+Shift+I',
+          click: () => {
+            mainWindow.webContents.toggleDevTools();
+          }
+        }
+      ]
+    }
+  ]);
+
+  Menu.setApplicationMenu(menu);
+
   // Регистрация обработчиков IPC
   ipcMain.handle('login', handleLogin);
   ipcMain.handle('getCurrentPage', handleGetCurrentPage);
@@ -63,6 +117,105 @@ function createWindow() {
     console.log('Closing window');
     stopServer();
     mainWindow.close();
+  });
+
+  ipcMain.handle('get-cookies', async (event, { browserId, filePath }) => {
+    const options = {
+      hostname: 'localhost',
+      port: 5005,
+      path: `/browser/get_cookies/${browserId}`,
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    };
+
+    const req = http.request(options, (res) => {
+      let data = '';
+
+      res.on('data', (chunk) => {
+        data += chunk;
+      });
+
+      res.on('end', () => {
+        try {
+          const response = JSON.parse(data);
+          const cookies = response.cookies;
+          fs.writeFileSync(filePath, JSON.stringify(cookies, null, 2));
+          event.sender.send('cookies-saved', cookies);
+        } catch (err) {
+          console.error('Error parsing JSON response:', err);
+          console.error('Response data:', data);
+          event.sender.send('cookies-error', 'Error parsing JSON response');
+        }
+      });
+    });
+
+    req.on('error', (e) => {
+      console.error(e);
+      event.sender.send('cookies-error', e.message);
+    });
+
+    req.end();
+  });
+
+  ipcMain.handle('load-cookies', async (event, { browserId, filePath }) => {
+    const cookies = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+
+    const options = {
+      hostname: 'localhost',
+      port: 5005,
+      path: `/browser/load_cookies/${browserId}`,
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Content-Length': Buffer.byteLength(JSON.stringify({ cookies }))
+      }
+    };
+
+    const req = http.request(options, (res) => {
+      res.on('data', (chunk) => {
+        console.log('Response:', chunk.toString());
+      });
+
+      res.on('end', () => {
+        console.log('Cookies loaded to server');
+      });
+    });
+
+    req.on('error', (e) => {
+      console.error(e);
+    });
+
+    req.write(JSON.stringify({ cookies }));
+    req.end();
+  });
+
+  ipcMain.handle('show-save-dialog', async (event) => {
+    const result = await dialog.showSaveDialog(mainWindow, {
+      title: 'Save Cookies from Server',
+      defaultPath: path.join(app.getPath('desktop'), 'cookies.pkl'),
+      filters: [
+        { name: 'PKL Files', extensions: ['pkl'] },
+        { name: 'All Files', extensions: ['*'] }
+      ]
+    });
+
+    return result.filePath;
+  });
+
+  ipcMain.handle('show-open-dialog', async (event) => {
+    const result = await dialog.showOpenDialog(mainWindow, {
+      title: 'Load Cookies to Server',
+      defaultPath: app.getPath('desktop'),
+      filters: [
+        { name: 'PKL Files', extensions: ['pkl'] },
+        { name: 'All Files', extensions: ['*'] }
+      ],
+      properties: ['openFile']
+    });
+
+    return result.filePaths[0];
   });
 }
 

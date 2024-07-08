@@ -2243,3 +2243,1147 @@ Stacktrace:
 #16 0x71d07989ca94 <unknown>
 #17 0x71d079929c3c <unknown>
 
+2024-07-07 17:44:11,294 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:12,321 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:13,339 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:14,355 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:15,375 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:16,391 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:17,408 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:18,425 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:19,441 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:20,459 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:21,476 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:22,493 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:23,508 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:24,526 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:25,537 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:26,553 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:27,569 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:28,587 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:29,603 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:30,620 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:31,636 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:32,651 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:33,667 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:34,683 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:35,697 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:36,713 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:37,728 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:38,744 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:39,760 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:40,782 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:41,799 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:42,815 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:43,830 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:44,846 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:45,864 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:46,880 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:47,897 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:48,914 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:49,929 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:50,946 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:51,964 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:52,980 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:53,995 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:55,011 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:56,027 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:57,042 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:58,058 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 17:44:59,069 ERROR Ошибка при подсветке ответа: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.126)
+Stacktrace:
+#0 0x5b99e86aac7a <unknown>
+#1 0x5b99e838de2c <unknown>
+#2 0x5b99e83630d4 <unknown>
+#3 0x5b99e8405a8d <unknown>
+#4 0x5b99e841bca6 <unknown>
+#5 0x5b99e83fd363 <unknown>
+#6 0x5b99e83cd247 <unknown>
+#7 0x5b99e83cdb9e <unknown>
+#8 0x5b99e867124b <unknown>
+#9 0x5b99e86752f1 <unknown>
+#10 0x5b99e865cafe <unknown>
+#11 0x5b99e8675e52 <unknown>
+#12 0x5b99e864179f <unknown>
+#13 0x5b99e869a638 <unknown>
+#14 0x5b99e869a810 <unknown>
+#15 0x5b99e86a9dac <unknown>
+#16 0x71d07989ca94 <unknown>
+#17 0x71d079929c3c <unknown>
+
+2024-07-07 21:53:32,909 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5005
+2024-07-07 21:53:32,909 INFO [33mPress CTRL+C to quit[0m
+2024-07-07 21:53:32,911 INFO  * Restarting with stat
+2024-07-07 21:53:33,183 WARNING  * Debugger is active!
+2024-07-07 21:53:33,187 INFO  * Debugger PIN: 582-660-401
+2024-07-07 21:53:39,306 INFO ====== WebDriver manager ======
+2024-07-07 21:53:39,415 INFO Get LATEST chromedriver version for google-chrome
+2024-07-07 21:53:39,653 INFO Get LATEST chromedriver version for google-chrome
+2024-07-07 21:53:39,782 INFO Driver [/home/fckjesus/.wdm/drivers/chromedriver/linux64/126.0.6478.126/chromedriver-linux64/chromedriver] found in cache
+2024-07-07 21:53:41,055 INFO Браузер открыт с ID: fc6b05ac-fa0e-499c-af61-7a06639bf800. Все браузеры: dict_keys(['fc6b05ac-fa0e-499c-af61-7a06639bf800'])
+2024-07-07 21:53:41,055 INFO Браузер открыт с ID: fc6b05ac-fa0e-499c-af61-7a06639bf800
+2024-07-07 21:53:41,056 INFO 127.0.0.1 - - [07/Jul/2024 21:53:41] "POST /browser/open HTTP/1.1" 200 -
+2024-07-07 21:54:07,560 INFO  * Detected change in '/home/fckjesus/Ozon/OzonModeration/server/app/browser/routes.py', reloading
+2024-07-07 21:54:07,623 INFO  * Restarting with stat
+2024-07-07 21:54:07,902 WARNING  * Debugger is active!
+2024-07-07 21:54:07,907 INFO  * Debugger PIN: 582-660-401
+2024-07-07 21:54:18,297 INFO ====== WebDriver manager ======
+2024-07-07 21:54:18,400 INFO Get LATEST chromedriver version for google-chrome
+2024-07-07 21:54:18,536 INFO Get LATEST chromedriver version for google-chrome
+2024-07-07 21:54:18,728 INFO Driver [/home/fckjesus/.wdm/drivers/chromedriver/linux64/126.0.6478.126/chromedriver-linux64/chromedriver] found in cache
+2024-07-07 21:54:19,817 INFO Браузер открыт с ID: 4e2cbe3b-becc-49af-9e04-c2d74f09708d. Все браузеры: dict_keys(['4e2cbe3b-becc-49af-9e04-c2d74f09708d'])
+2024-07-07 21:54:19,817 INFO Браузер открыт с ID: 4e2cbe3b-becc-49af-9e04-c2d74f09708d
+2024-07-07 21:54:19,818 INFO 127.0.0.1 - - [07/Jul/2024 21:54:19] "POST /browser/open HTTP/1.1" 200 -
+2024-07-07 21:54:37,598 INFO 127.0.0.1 - - [07/Jul/2024 21:54:37] "[33mPOST /browser/get_cookie/4e2cbe3b-becc-49af-9e04-c2d74f09708d HTTP/1.1[0m" 404 -
+2024-07-07 21:54:53,703 INFO Куки сохранены для браузера с ID: 4e2cbe3b-becc-49af-9e04-c2d74f09708d
+2024-07-07 21:54:53,703 INFO Куки сохранены для браузера с ID: 4e2cbe3b-becc-49af-9e04-c2d74f09708d
+2024-07-07 21:54:53,704 INFO 127.0.0.1 - - [07/Jul/2024 21:54:53] "POST /browser/get_cookies/4e2cbe3b-becc-49af-9e04-c2d74f09708d HTTP/1.1" 200 -
+2024-07-07 22:09:09,225 INFO  * Detected change in '/home/fckjesus/Ozon/OzonModeration/server/app/browser/routes.py', reloading
+2024-07-07 22:09:09,310 INFO  * Restarting with stat
+2024-07-07 22:09:09,620 WARNING  * Debugger is active!
+2024-07-07 22:09:09,623 INFO  * Debugger PIN: 582-660-401
+2024-07-07 22:09:26,273 INFO  * Detected change in '/home/fckjesus/Ozon/OzonModeration/server/app/browser/routes.py', reloading
+2024-07-07 22:09:26,341 INFO  * Restarting with stat
+2024-07-07 22:09:26,616 WARNING  * Debugger is active!
+2024-07-07 22:09:26,619 INFO  * Debugger PIN: 582-660-401
+2024-07-07 22:09:41,345 INFO Получен список всех открытых браузеров
+2024-07-07 22:09:41,346 INFO 127.0.0.1 - - [07/Jul/2024 22:09:41] "GET /browser/browsers HTTP/1.1" 200 -
+2024-07-07 22:10:23,766 INFO Получен список всех открытых браузеров
+2024-07-07 22:10:23,767 INFO 127.0.0.1 - - [07/Jul/2024 22:10:23] "GET /browser/browsers HTTP/1.1" 200 -
