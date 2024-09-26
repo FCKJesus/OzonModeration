@@ -10,7 +10,6 @@
         document.body.innerHTML = bodyText;
     }
 
-    // Parse the JSON string to an array
     var wordsArray = JSON.parse(wordsToHighlight);
     highlightWords(wordsArray);
 })(arguments[0]);
